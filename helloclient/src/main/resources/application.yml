@@ -11,4 +11,10 @@ spring:
     config:
       label: master
       profile: dev
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+management:
+  security:
+    enabled: false
 
